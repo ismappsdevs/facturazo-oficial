@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidad — FacturaZo</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+    color: #1A1A2E;
+    line-height: 1.6;
+    background: #fff;
+  }
+  h1 {
+    color: #0F3460;
+    border-bottom: 3px solid #E94560;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+  }
+  h2 {
+    color: #0F3460;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-size: 1.25em;
+  }
+  h3 {
+    color: #16213E;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 1.05em;
+  }
+  .meta {
+    color: #999;
+    font-size: 0.9em;
+    margin-bottom: 24px;
+  }
+  ul { padding-left: 24px; }
+  li { margin-bottom: 6px; }
+  a { color: #E94560; }
+  .nota {
+    background: #F4F8FF;
+    border-left: 4px solid #0F3460;
+    padding: 12px 16px;
+    margin: 16px 0;
+    border-radius: 4px;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+    font-size: 0.85em;
+    color: #999;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<h1>Política de Privacidad de FacturaZo</h1>
+<p class="meta">Última actualización: 4 de junio de 2026</p>
+
+<div class="nota">
+  Esta política explica qué datos recoge la aplicación FacturaZo, cómo los usa y qué derechos tienes sobre ellos. FacturaZo está diseñada para funcionar de forma totalmente offline: tus datos fiscales <strong>no salen del dispositivo</strong>.
+</div>
+
+<h2>1. Responsable del tratamiento</h2>
+<p>
+  El responsable de FacturaZo (en adelante, "la aplicación") es el desarrollador independiente que la publica bajo el nombre de desarrollador <strong>ismappsdevs</strong> en Google Play.
+</p>
+<p>
+  Para cualquier consulta relacionada con esta política de privacidad, puedes contactar a través del email indicado en la ficha de Google Play.
+</p>
+
+<h2>2. Datos que recoge la aplicación</h2>
+
+<h3>2.1 Datos que se almacenan únicamente en tu dispositivo</h3>
+<p>
+  Toda la información fiscal que introduces en la app (ingresos, gastos, facturas, retenciones, categorías, datos de cliente o proveedor) se almacena de forma local en una base de datos SQLite dentro de tu dispositivo. <strong>Estos datos no se transmiten a ningún servidor externo</strong>, no se envían al desarrollador, y no salen de tu teléfono salvo si tú mismo decides exportarlos (por ejemplo, como PDF para enviárselo a tu asesor).
+</p>
+
+<h3>2.2 Datos recogidos por terceros integrados</h3>
+<p>La aplicación utiliza servicios de terceros que recogen datos para su funcionamiento:</p>
+<ul>
+  <li><strong>Google AdMob</strong> (publicidad): recoge identificador publicitario del dispositivo, ubicación aproximada (basada en IP), tipo de dispositivo, sistema operativo y datos de interacción con los anuncios. Esto permite mostrar publicidad relevante y medir su rendimiento. AdMob es gestionado por Google LLC, sujeto a su política de privacidad: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>.</li>
+  <li><strong>Google Play Billing</strong> (compras dentro de la aplicación): si te suscribes a FacturaZo Premium, Google Play gestiona la transacción y recoge la información de pago. La aplicación únicamente recibe la confirmación de que la suscripción está activa, sin acceder a tus datos bancarios.</li>
+</ul>
+
+<h3>2.3 Datos técnicos de funcionamiento</h3>
+<p>La aplicación utiliza preferencias locales (<code>SharedPreferences</code>) para guardar tu configuración personal (hora del recordatorio, perfil profesional, idioma, estado del onboarding, fecha de las tablas fiscales descargadas). Esta información permanece exclusivamente en tu dispositivo.</p>
+
+<h3>2.4 Conexión con servidor para tablas fiscales</h3>
+<p>La aplicación realiza conexiones puntuales a un archivo público alojado en GitHub para descargar las tablas fiscales actualizadas (tipos de IVA, IRPF, fechas oficiales, etc.). Esta descarga es anónima y no envía ninguna información personal del usuario. Solo se descarga un fichero de texto público.</p>
+
+<h2>3. Finalidad del tratamiento</h2>
+<p>Los datos descritos se utilizan exclusivamente para:</p>
+<ul>
+  <li>Permitir el cálculo y consulta local de tu situación fiscal trimestral.</li>
+  <li>Mostrar publicidad personalizada o no personalizada en la versión gratuita.</li>
+  <li>Gestionar el pago y validación de la suscripción Premium.</li>
+  <li>Enviar recordatorios locales (notificaciones que se generan en tu propio dispositivo, sin servidor intermediario).</li>
+  <li>Mantener las tablas fiscales actualizadas sin requerir intervención del usuario.</li>
+</ul>
+
+<h2>4. Base legal</h2>
+<p>El tratamiento de datos se basa en:</p>
+<ul>
+  <li>Tu <strong>consentimiento</strong> al instalar la app, otorgar permisos de notificaciones y aceptar la política de publicidad personalizada.</li>
+  <li>La <strong>ejecución del contrato</strong> en el caso de las suscripciones Premium.</li>
+  <li>El <strong>interés legítimo</strong> del desarrollador en mostrar publicidad para sostener la versión gratuita de la aplicación.</li>
+</ul>
+
+<h2>5. Compartición de datos con terceros</h2>
+<p>
+  El desarrollador de FacturaZo <strong>no comparte, vende, ni cede</strong> ningún dato personal del usuario a terceros. Los únicos terceros que reciben datos son los servicios de Google enumerados en la sección 2.2, cuya integración es estándar en aplicaciones Android.
+</p>
+
+<h2>6. Conservación de los datos</h2>
+<p>
+  Los datos fiscales almacenados en tu dispositivo se conservan indefinidamente hasta que:
+</p>
+<ul>
+  <li>Los elimines manualmente desde la propia aplicación (sección Historial).</li>
+  <li>Desinstales la aplicación, lo que borra automáticamente todos los datos asociados.</li>
+  <li>Restablezcas los datos de fábrica del dispositivo.</li>
+</ul>
+
+<h2>7. Tus derechos (RGPD)</h2>
+<p>Como usuario en el Espacio Económico Europeo, tienes derecho a:</p>
+<ul>
+  <li><strong>Acceso</strong>: consultar qué datos tiene la aplicación sobre ti — están todos visibles dentro de la propia app.</li>
+  <li><strong>Rectificación</strong>: editar cualquier dato directamente desde la aplicación.</li>
+  <li><strong>Supresión</strong>: eliminar individualmente cualquier ingreso o gasto, o desinstalar la app para borrar todo de golpe.</li>
+  <li><strong>Oposición</strong>: revocar el consentimiento para publicidad personalizada desde los ajustes de Google del dispositivo (Ajustes → Google → Anuncios).</li>
+  <li><strong>Portabilidad</strong>: exportar tus datos en formato PDF a través de la función de exportación trimestral.</li>
+</ul>
+<p>
+  Si crees que tus derechos no se han respetado, puedes presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD): <a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>.
+</p>
+
+<h2>8. Seguridad</h2>
+<p>
+  Los datos almacenados en tu dispositivo están protegidos por los mecanismos de seguridad propios del sistema operativo Android (sandbox de aplicaciones, cifrado del sistema de archivos si está activado). Las comunicaciones con servidores externos (Google AdMob, Google Play Billing, descarga de tablas fiscales) se realizan siempre mediante HTTPS.
+</p>
+
+<h2>9. Menores de edad</h2>
+<p>
+  FacturaZo está destinada a profesionales autónomos y mayores de edad. La aplicación no recoge intencionalmente datos de menores de 16 años.
+</p>
+
+<h2>10. Cambios en esta política</h2>
+<p>
+  Esta política de privacidad puede actualizarse para reflejar cambios en la aplicación, en la legislación aplicable, o en los servicios de terceros integrados. La versión vigente siempre estará disponible en esta misma URL. La fecha de "Última actualización" en la cabecera indica cuándo se modificó por última vez.
+</p>
+
+<h2>11. Contacto</h2>
+<p>
+  Para cualquier consulta relacionada con esta política, puedes escribir al email de contacto indicado en la ficha de FacturaZo en Google Play.
+</p>
+
+<footer>
+  © 2026 ismappsdevs — FacturaZo · Política de privacidad
+</footer>
+
+</body>
+</html>
